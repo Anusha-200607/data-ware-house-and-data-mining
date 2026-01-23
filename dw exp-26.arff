@@ -1,0 +1,24 @@
+@relation '2015 '
+
+@attribute 'Ref No' {A101,A102,A103,A104,A105,A106}
+@attribute Easting numeric
+@attribute Northing numeric
+@attribute Vehicles numeric
+@attribute Date {21-01-2015,22-01-2015,20-01-2015,25-01-2015,30-01-2015,05-02-2015}
+@attribute Time numeric
+@attribute 'Road Class' {A,B,C}
+@attribute 'Road Surface' {Dry,Wet}
+@attribute Lighting {Daylight,Darkness}
+@attribute Weather {Fine,Rain,Fog}
+@attribute 'Casualty Class' {Driver,Passenger,Pedestrian}
+@attribute Sex {Male,Female}
+@attribute Age numeric
+@attribute 'Casualty Type' {Slight,Serious,Fatal}
+
+@data
+A101,530120,182300,2,21-01-2015,8,A,Dry,Daylight,Fine,Driver,Male,34,Slight
+A102,530450,182600,3,22-01-2015,18,B,Wet,Darkness,Rain,Passenger,Female,28,Serious
+A103,530700,182900,1,20-01-2015,14,C,Dry,Daylight,Fine,Pedestrian,Male,45,Slight
+A104,531000,183100,2,25-01-2015,22,A,Wet,Darkness,Fog,Driver,Male,52,Fatal
+A105,531200,183300,4,30-01-2015,19,B,Dry,Darkness,Rain,Passenger,Female,21,Serious
+A106,531500,183500,2,05-02-2015,9,C,Dry,Daylight,Fine,Driver,Male,30,Slight
